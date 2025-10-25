@@ -25,6 +25,5 @@ Users can **view, create, edit, search, and randomly browse** entries, all store
 ```bash
 python manage.py runserver
 
-# View at
-
+# view at
 https://youtu.be/x1hMMSEHeYU?si=uhUd3-BImN4-8qOG
