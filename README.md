@@ -227,4 +227,6 @@ For class submission only. Feel free to adapt as needed.
 
 requirements.txt
 Django==5.2.4
+
 tzdata>=2024.1 ; platform_system == "Windows"
+https://youtu.be/YkaA7v1UoW0?si=l8h1ln8oYrVSxrbN
