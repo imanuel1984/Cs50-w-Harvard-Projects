@@ -1,2 +1,2 @@
 # imanuel1984 
-Implemented a front-end clone of Google Search, Image Search, and Advanced Search using HTML, CSS, and simple GET queries. Focused on responsive design and user input handling to reproduce real-world search functionality. https://youtu.be/-tDDTChKLSw?si=e2AQlrqb646LksZf
+Developed an online auction platform with user authentication, bidding system, comments, and watchlist management. Implemented item listings, price validation, and dynamic templates following Django MVC principles. https://youtu.be/ASbEkMO7D-w?si=RIj2fHSkfe3EdC8R
