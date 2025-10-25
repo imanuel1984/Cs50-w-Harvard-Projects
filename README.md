@@ -22,8 +22,8 @@ Users can **view, create, edit, search, and randomly browse** entries, all store
 - Markdown2 library
 
 ## How to Run
-```bash
-python manage.py runserver
+
+python manage.py runserver.
 
 ## What I Learned
 
