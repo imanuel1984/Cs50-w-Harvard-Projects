@@ -3,8 +3,6 @@
 
 ## 🛒 **Commerce (Auctions)**
 
-# Commerce (Auctions)
-
 An eBay-like auctions platform where users can **create listings**, **bid**, **comment**, and **add to watchlist**.
 
 ## Features
