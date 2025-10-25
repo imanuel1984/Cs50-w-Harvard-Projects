@@ -9,11 +9,11 @@ This repository showcases all of my projects from **Harvard’s CS50W course** �
 | Project | Description | Technologies | Demo |
 |----------|--------------|--------------|------|
 | [Search](https://github.com/imanuel1984/Cs50-w-Harvard-Projects/tree/imanuel1984-search) | A Google-style search page with advanced queries and image/news search simulation. | HTML, CSS | [🎥 Watch](https://youtu.be/-tDDTChKLSw?si=058jJfCro2-U7Bj1) |
-| [Wiki](https://github.com/YOUR_USERNAME/cs50/tree/wiki) | A Django-based encyclopedia app where users can view, create, edit, and search Markdown pages. | Django, Markdown2 | [🎥 Watch](https://youtu.be/x1hMMSEHeYU?si=uhUd3-BImN4-8qOG) |
-| [Commerce](https://github.com/YOUR_USERNAME/cs50/tree/commerce) | An online auction site similar to eBay — supports listings, bidding, watchlists, and comments. | Django, Python | [🎥 Watch](https://youtu.be/YourCommerceVideo) |
-| [Mail](https://github.com/YOUR_USERNAME/cs50/tree/mail) | A single-page email client built with Django and JavaScript’s Fetch API. | Django, JS | [🎥 Watch](https://youtu.be/YourMailVideo) |
-| [Network](https://github.com/YOUR_USERNAME/cs50/tree/network) | A social network allowing posts, likes, follows, and pagination — like a simplified Twitter. | Django, JS | [🎥 Watch](https://youtu.be/YourNetworkVideo) |
-| [Final Project – Transport Service](https://github.com/YOUR_USERNAME/cs50/tree/final) | A ride-coordination app connecting patients with volunteers. Auto-cancels requests if no volunteers accept. | Django, JS, CSS | [🎥 Watch](https://youtu.be/YourFinalVideo) |
+| [Wiki](https://github.com/imanuel1984/Cs50-w-Harvard-Projects/tree/imanuel1984-wiki) | A Django-based encyclopedia app where users can view, create, edit, and search Markdown pages. | Django, Markdown2 | [🎥 Watch](https://youtu.be/x1hMMSEHeYU?si=uhUd3-BImN4-8qOG) |
+| [Commerce](https://github.com/imanuel1984/Cs50-w-Harvard-Projects/tree/imanuel1984-commerce) | An online auction site similar to eBay — supports listings, bidding, watchlists, and comments. | Django, Python | [🎥 Watch](https://youtu.be/ASbEkMO7D-w?si=EBd28eydlMA-fz8S) |
+| [Mail]((https://github.com/imanuel1984/Cs50-w-Harvard-Projects/tree/imanuel1984-mail) | A single-page email client built with Django and JavaScript’s Fetch API. | Django, JS | [🎥 Watch](https://youtu.be/hC5r4y_xiA0?si=JwY2YfWpx-XJ3eCv) |
+| [Network](https://github.com/imanuel1984/Cs50-w-Harvard-Projects/tree/imanuel1984-network) | A social network allowing posts, likes, follows, and pagination — like a simplified Twitter. | Django, JS | [🎥 Watch](https://youtu.be/-7Xk_SNUO0w?si=ZMNYIeTsLi5YT99J) |
+| [Final Project – Transport Service](https://github.com/imanuel1984/Cs50-w-Harvard-Projects/tree/imanuel1984-stransport) | A ride-coordination app connecting patients with volunteers. Auto-cancels requests if no volunteers accept. | Django, JS, CSS | [🎥 Watch](https://youtu.be/YkaA7v1UoW0?si=cFKeFnE4kHy-4p1O) |
 
 ---
 
@@ -62,5 +62,6 @@ View my verified certificate https://courses.edx.org/certificates/21048c85427346
 
 📧 imanuel1984@outlook.com
 🌐 github.com/imanuel1984
+
 
 
