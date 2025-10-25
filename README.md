@@ -1,3 +1,2 @@
 # imanuel1984 
-Implemented a front-end clone of Google Search, Image Search, and Advanced Search using HTML, CSS, and simple GET queries. Focused on responsive design and user input handling to reproduce real-world search functionality. https://youtu.be/-tDDTChKLSw?si=e2AQlrqb646LksZf
-‏⁦⁩
+Created a single-page web mail client using JavaScript and Django REST API. Supported sending, reading, archiving, and replying to emails asynchronously via Fetch API, implementing a dynamic SPA-like interface. https://youtu.be/hC5r4y_xiA0?si=lwCqJm-_owVs9Ln3‏⁦⁩
