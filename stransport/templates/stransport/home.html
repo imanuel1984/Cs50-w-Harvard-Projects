@@ -1,0 +1,48 @@
+{% extends "stransport/layout.html" %}
+{% block title %}Transport Service{% endblock %}
+
+{% block content %}
+<h1 class="page-title">Transport Service</h1>
+
+{% if current_user.profile.role == "sick" %}
+<div class="panel" id="sick-panel">
+  <form id="create-request-form">
+    <input type="hidden" name="csrfmiddlewaretoken" value="{{ csrf_token }}">
+    <input type="text" name="pickup" placeholder="Pickup address" required>
+    <input type="text" name="destination" placeholder="Destination" required>
+    <input type="datetime-local" name="time" required>
+    <input type="text" name="notes" placeholder="Notes (optional)">
+    <input type="text" name="phone" placeholder="Phone number" required>
+    <button type="submit" class="new-request-btn">Create Request</button>
+  </form>
+
+  <div style="margin-top:12px;">
+    <button id="show-closed-btn" class="button">Show Closed / Cancelled Requests</button>
+    <button id="show-open-btn" class="button" style="display:none;">Back to Open Requests</button>
+  </div>
+
+  <div id="requests-container" style="margin-top:14px;"></div>
+  <div id="closed-requests-container" style="margin-top:14px; display:none;"></div>
+</div>
+
+{% endif %}
+
+{% if current_user.profile.role == "volunteer" %}
+<div class="panel" id="volunteer-panel">
+  <div style="margin-bottom:12px;">
+    <button id="show-accepted-btn" class="button">Show My Accepted Requests</button>
+    <button id="show-open-btn" class="button" style="display:none;">Back to Open Requests</button>
+  </div>
+  <div id="requests-container"></div>
+  <div id="accepted-requests-container" style="display:none;"></div>
+</div>
+{% endif %}
+{% endblock %}
+
+{% load static %}
+<script src="{% static 'stransport/stransport.js' %}" defer></script>
+<script>
+window.currentUserRole = "{{ current_user.profile.role|default:'' }}";
+window.currentUserId = "{{ current_user.id|default:'' }}";
+window.currentUserUsername = "{{ current_user.username|escapejs }}";
+</script>
