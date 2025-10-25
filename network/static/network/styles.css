@@ -1,0 +1,110 @@
+html {
+    overflow-y: scroll; /* always show vertical scrollbar */
+}
+
+/* ---------------- Base Styles ---------------- */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 60px 12px 12px 12px; /* Top padding accounts for fixed navbar */
+}
+
+/* ----------------Topnav ---------------- */
+.topnav {
+    position: fixed;       /* Fixed at top */
+    top: 0;
+    left: 0;
+    width: 100%;           /* Full width */
+    display: flex;
+    gap: 12px;
+    background: #222;      /* Dark background */
+    color: #fff;
+    padding: 10px;
+    border-radius: 6px;
+    z-index: 1000;         /* Stays above content */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.topnav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 6px 8px;
+    border-radius: 4px;
+}
+
+.topnav a:hover {
+    background: rgba(255,255,255,0.06);
+}
+
+/* ---------------- Headings ---------------- */
+h2 {
+    margin-top: 12px;
+    color: #333;
+}
+
+/* ---------------- New Post Form ---------------- */
+.new-post {
+    margin-bottom: 20px;
+}
+
+/* ---------------- Posts ---------------- */
+.post {
+    padding: 8px 0;
+}
+
+.post .meta {
+    color: #666;
+    font-size: 0.9rem;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.post .content {
+    margin: 6px 0;
+}
+
+.post .actions {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+/* ---------------- Buttons ---------------- */
+.btn {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+/* ---------------- Textarea ---------------- */
+textarea {
+    font-family: inherit;
+    font-size: 1rem;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    resize: none;
+}
+
+/* ---------------- Pagination ---------------- */
+.pagination {
+    margin-top: 12px;
+}
+
+/* ---------------- Messages ---------------- */
+.msg {
+    padding: 8px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    background: #ffeedd;
+}
