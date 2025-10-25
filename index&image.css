@@ -1,0 +1,12 @@
+form{text-align: center;margin-top: 27vh;}
+.a{text-align: right;}
+a{text-decoration: none;color: black;}
+#btnImage,#btnAdvanced{margin: 10px;}
+#btnImage:hover, #btnAdvanced:hover, #btnGoogle:hover{text-decoration: underline;}
+.search-box{width: 550px;height: 40px;border-radius: 50px;border-width: 1px;outline: none;}}
+.search-box:hover{border-color: #707070;box-shadow: 0 0 10px rgba(138, 138, 138, 0.5);}
+.search{margin-top: 27px;border: none;background-color: rgba(248, 248, 248, 0.79);width: 120px;height: 30px;}
+#btnG, #btnG{margin: 20px;}
+#btnG:hover, #btnI:hover{box-shadow: 0 0 5px rgba(138, 138, 138, 0.5);}
+.search-box:-webkit-autofill {
+  box-shadow: 0 0 0px 1000px white inset;}
