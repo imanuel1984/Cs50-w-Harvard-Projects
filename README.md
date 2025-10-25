@@ -25,5 +25,13 @@ Users can **view, create, edit, search, and randomly browse** entries, all store
 ```bash
 python manage.py runserver
 
+## What I Learned
+
+Dynamic routing and views in Django.
+
+Forms, validation, and file management.
+
+Markdown integration.
+
 # view at
 https://youtu.be/x1hMMSEHeYU?si=uhUd3-BImN4-8qOG
