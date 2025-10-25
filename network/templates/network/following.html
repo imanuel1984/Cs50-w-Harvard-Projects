@@ -1,0 +1,14 @@
+{% extends "network/layout.html" %}
+{% block title %}Following{% endblock %}
+{% block body %}
+  <h2>Posts from people you follow</h2>
+  {% for post in page_obj %}
+    {% include "network/post_partial.html" %}
+  {% endfor %}
+
+  <div class="pagination">
+    {% if page_obj.has_previous %}<a href="?page={{ page_obj.previous_page_number }}">Previous</a>{% endif %}
+    <span>Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}</span>
+    {% if page_obj.has_next %}<a href="?page={{ page_obj.next_page_number }}">Next</a>{% endif %}
+  </div>
+{% endblock %}

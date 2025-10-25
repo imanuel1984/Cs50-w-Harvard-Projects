@@ -1,0 +1,29 @@
+{% extends "network/layout.html" %}
+{% block title %}All Posts{% endblock %}
+{% block body %}
+  <h2>All Posts</h2>
+
+  {% if user.is_authenticated %}
+    <form action="{% url 'create_post' %}" method="post" class="new-post">
+      {% csrf_token %}
+      {{ form.as_p }}
+      <button type="submit" class="btn">Post</button>
+    </form>
+  {% endif %}
+
+  <div id="posts">
+    {% for post in page_obj %}
+      {% include "network/post_partial.html" %}
+    {% endfor %}
+  </div>
+
+  <div class="pagination">
+    {% if page_obj.has_previous %}
+      <a href="?page={{ page_obj.previous_page_number }}">Previous</a>
+    {% endif %}
+    <span>Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}</span>
+    {% if page_obj.has_next %}
+      <a href="?page={{ page_obj.next_page_number }}">Next</a>
+    {% endif %}
+  </div>
+{% endblock %}
